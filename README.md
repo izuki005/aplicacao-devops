@@ -14,15 +14,12 @@ git clone https://github.com/izuki005/aplicacao-devops
 2. Navegue até o diretório do projeto:
 cd aplicacao-devops
 
-3. Instale as dependências do projeto:
-npm install
-
-4. Execute o servidor:
+3. Execute o servidor:
 node app.js
 
-5. O servidor estará rodando em [http://localhost:3000](http://localhost:3000).
+4. O servidor estará rodando em [http://localhost:3000](http://localhost:3000).
 
-6. Para acessar a lista de integrantes do projeto, abra seu navegador e vá para [http://localhost:3000/integrantes](http://localhost:3000/integrantes).
+5. Para acessar a lista de integrantes do projeto, abra seu navegador e vá para [http://localhost:3000/integrantes](http://localhost:3000/integrantes).
 
 ## Estrutura do Projeto
 
