@@ -9,6 +9,16 @@ app.get('/', (req, res) => {
     res.sendFile('src/views/index.html', {root: __dirname})
 })
 
+data = { 'integrates':[
+    {'front': 'Kawan Gabriel'},
+    {'back': 'Matheus Falcão'}
+]}
+
+app.get('/integrantes', (req, res) => {
+    res.json(data)
+})
+
+
 app.listen(PORTA, () => {
     console.log(`Seu servidor está rodando na porta 3000 em:\nhttp://localhost:${PORTA}`)
 })
